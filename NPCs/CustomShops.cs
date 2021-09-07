@@ -100,11 +100,11 @@ namespace Terrarchitect.NPCs
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 10);
                     nextSlot++;
                     break;
-                case NPCID.DD2Bartender:
+                /*case NPCID.DD2Bartender: //blocks thorium sentries
                     shop.item[nextSlot].SetDefaults(ItemType<Items.BeerMugItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
                     nextSlot++;
-                    break;
+                    break;*/
                 case NPCID.Clothier:
                     shop.item[nextSlot].SetDefaults(ItemType<Items.DressingScreenItem>());
                     shop.item[nextSlot].shopCustomPrice = Item.buyPrice(0, 0, 50);
